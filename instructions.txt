@@ -1,0 +1,9 @@
+// 1. Intialize npm and install dependencies
+// express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)
+// dotenv -> hides your stuff e.g. hide the secret stuff
+// cors -> bypass cors errors, cross origin requests blocks
+// ejs -> template
+// nodemon -> npm install nodemon --save-dev
+
+
+// 2. Require dependencies in server.js
