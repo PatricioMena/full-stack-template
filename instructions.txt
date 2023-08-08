@@ -7,3 +7,9 @@
 
 
 // 2. Require dependencies in server.js
+// const express = require('express') etc...
+
+// 3. Declare variables
+// process.env.DB_STRING -> grabbing the variable from the env file 
+
+// 4. Connect to MongoDb - add connection string to .env file 
