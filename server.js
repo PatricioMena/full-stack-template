@@ -11,8 +11,12 @@ let db,
   dbName = 'sample_mflix',
   collection;
 
-MongoClient.connect('dbConnectionString').then((client) => {
+MongoClient.connect(dbConnectionString).then((client) => {
   console.log('Connected to Database');
   db = client.db(dbName);
   colletion = db.collection('movies');
+});
+
+app.listen(process.env.PORT || 8000, () => {
+  console.log(`Server is running on port ${process.env.PORT}`);
 });

@@ -13,3 +13,9 @@
 // process.env.DB_STRING -> grabbing the variable from the env file 
 
 // 4. Connect to MongoDb - add connection string to .env file 
+
+// 5. Add .env file to gitignore
+
+// 6. Create PORT
+
+//----Test Mongo and Port connection
