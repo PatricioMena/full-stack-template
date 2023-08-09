@@ -28,3 +28,4 @@
 
 // 10. Add content to main.js, style.css, index.ejs
 
+// 11. Deploy to render.com use on build npm install and add . to root directory

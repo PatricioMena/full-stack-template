@@ -25,8 +25,12 @@ app.use(express.json());
 //
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.render('index.ejs', {});
+app.get('/', async (req, res) => {
+  try {
+    res.render('index.ejs', {});
+  } catch (error) {
+    response.status(500).send({ message: error.message });
+  }
 });
 
 app.listen(process.env.PORT || 8000, () => {
