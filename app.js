@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.render('index.ejs', {});
+  res.render('/index.ejs', {});
 });
 
 app.listen(process.env.PORT || 8000, () => {
