@@ -12,12 +12,19 @@
 // 3. Declare variables
 // process.env.DB_STRING -> grabbing the variable from the env file 
 
-// 4. Connect to MongoDb - add connection string to .env file 
+// 4. Create gitignore file and push to github
 
-// 5. Add .env file to gitignore
+// 5. Connect to MongoDb - add connection string to .env file 
 
-// 6. Create PORT
+// 6. Add .env file to gitignore
+
+// 7. Create PORT
 
 //----Test Mongo and Port connection
 
-// 7. Set middleware (To transfrom data when we're sending request and responses. middlewares run before your routes. )
+// 8. Set middleware (To transfrom data when we're sending request and responses. middlewares run before your routes. )
+
+// 9. Create Public and Views folders = add main.js and style.css to Public and index.ejs to Views
+
+// 10. Add content to main.js, style.css, index.ejs
+
